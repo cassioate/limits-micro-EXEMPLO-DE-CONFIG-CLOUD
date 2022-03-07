@@ -7,7 +7,7 @@ import lombok.Data;
 
 @Data
 @Component
-@ConfigurationProperties("limits-service")
+@ConfigurationProperties("limits2-service")
 public class Configuration {
 	private int minimum;
 	private int maximum;
